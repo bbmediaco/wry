@@ -28,6 +28,8 @@
   void loadUrlMainThread(...);
   void loadHTMLMainThread(...);
   void evalScript(...);
+  void clearAllBrowsingData(...);
+  java.lang.String getCookies(...);
 }
 
 -keep class {{package-unescaped}}.RustWebChromeClient,{{package-unescaped}}.RustWebViewClient {
